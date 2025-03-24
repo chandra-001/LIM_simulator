@@ -1,5 +1,1 @@
-Halos_z7.960 7.960 CO_map_z7.960.bin
-Halos_z7.570 7.570 CO_map_z7.570.bin
-Halos_z7.221 7.221 CO_map_z7.221.bin
-Halos_z6.830 6.830 CO_map_z6.830.bin
-Halos_z6.354 6.354 CO_map_z6.354.bin
+subhalocat-z1.500 1.500 CO_map_z1.500.bin

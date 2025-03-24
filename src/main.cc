@@ -11,8 +11,7 @@ std::string Output;
 
 float z;
 
-int 
-main (int argc, char *argv[])
+int main (int argc, char *argv[])
 {
   Read_Param(argv[1]);
 

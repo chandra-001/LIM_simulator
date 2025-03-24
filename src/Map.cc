@@ -17,11 +17,11 @@ void Init_Map(std::valarray<float> &Map) {
 
   uint_fast64_t posx, posy, posz;
 
-#pragma omp parallel for num_threads(4) collapse(2) private(posx, posy, posz)
-  for (posx = 0; posx < N_cell_x; ++posx)
-    for (posy = 0; posy < N_cell_x; ++posy)
-      for (posz = 0; posz < N_cell_x; ++posz)
-        Map[Ind(posx, posy, posz)] = 0.0;
+  #pragma omp parallel for num_threads(4) collapse(2) private(posx, posy, posz)
+    for (posx = 0; posx < N_cell_x; ++posx)
+      for (posy = 0; posy < N_cell_x; ++posy)
+        for (posz = 0; posz < N_cell_x; ++posz)
+          Map[Ind(posx, posy, posz)] = 0.0;
 }
 
 void Write_Map(std::valarray<float> &Map) {

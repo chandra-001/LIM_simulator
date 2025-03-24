@@ -17,9 +17,9 @@ $(OBJDIR)/main.o: main.cc read_param.hh process_buffered.hh
 	$(CPP) $< -c -o $@ $(CFLAGS) -I$(IDIR) $(OPT)
 
 $(OBJDIR)/process_buffered.o: process_buffered.cc read_halo.hh\
-															grid_halo.hh sfr_buffered.hh\
-															lum_buffered.hh cic_buffered.hh\
-															map.hh
+		grid_halo.hh\
+		lum_buffered.hh cic_buffered.hh\
+		map.hh
 	$(CPP) $< -c -o $@ $(CFLAGS) -I$(IDIR) $(OPT)
 
 $(OBJDIR)/read_param.o: read_param.cc
@@ -29,9 +29,6 @@ $(OBJDIR)/read_halos_buffered.o: read_halos_buffered.cc
 	$(CPP) $< -c -o $@ $(CFLAGS) -fopenmp
 
 $(OBJDIR)/grid_halos_buffered.o: grid_halos_buffered.cc
-	$(CPP) $< -c -o $@ $(CFLAGS) $(OPT) -fopenmp
-
-$(OBJDIR)/sfr_buffered.o: sfr_buffered.cc
 	$(CPP) $< -c -o $@ $(CFLAGS) $(OPT) -fopenmp
 
 $(OBJDIR)/lum_buffered.o: lum_buffered.cc

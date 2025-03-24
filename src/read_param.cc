@@ -3,7 +3,7 @@
 #include <iostream>
 
 double Lambda;
-float cnv;
+float cnv;  // conversion of halo mass to solar mass units
 float scaling_unit;
 float h;
 float Omega_m;
