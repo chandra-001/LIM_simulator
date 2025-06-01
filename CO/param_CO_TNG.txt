@@ -1,0 +1,23 @@
+0.6775
+0.3089
+2.6e-3
+302.6
+2784
+348
+1000000
+1.47602e10
+1e6
+1
+
+# The parameters in this file are as follows:
+#
+# 1st parameter -> h       ( hubble parameter                       )
+# 2nd parameter -> Omega_m ( matter density parameter               )
+# 3rd parameter -> Lambda  ( Wavelength of emission line in meters  )
+# 4th parameter -> L_cMpc  ( Length of Simulation side in cMpc      )
+# 5th parameter -> No. of cells in original simulation
+# 6th parameter -> No. of desired cells after coarse-gridding
+# 7th parameter -> Buffer size ( No. of halos to read at once defaul=100000000 )
+# 8th parameter -> Unit conversion ( Conversion from halo mass into solar mass units )
+# 9th parameter -> Scaling unit ( A scaling constant to change the units of intensity ouptut )
+# 10th parameter -> rsd_flag ( 1 to apply redshift space distortion, 0 if not )

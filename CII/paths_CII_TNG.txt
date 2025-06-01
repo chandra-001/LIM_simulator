@@ -1,0 +1,1 @@
+../catalogues/subhalocat-z1.410_0.87Mpc_flagged 1.410 ../maps/CII_map_z1.410_0.87Mpc_RSD_trial.bin

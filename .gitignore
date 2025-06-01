@@ -1,3 +1,7 @@
-LIM_simulator
-subhalocat-z1.500/
-*.bin
+LIMIT
+catalogues/
+objdir/
+maps/
+halo_density.c
+noise.ipynb
+plot.ipynb

@@ -1,1 +1,0 @@
-subhalocat-z1.500 1.500 CO_map_z1.500.bin
